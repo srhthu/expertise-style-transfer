@@ -5,6 +5,18 @@ Prvasive cognitive bias exhibited across all domains can lead to discrepancies b
   <li>K</li>
   <li>then</li>
  </ul>
+ 
+ <table>
+  <th>
+  <td> row 1,1 </td>
+  <td> row 1,2 </td>
+  </th>
+  <th>
+  <td> row 2,1 </td>
+  <td> row 2,2 </td>
+  </th>
+ </table>
+ 
 # EST Dataset examples
 
 # Download
