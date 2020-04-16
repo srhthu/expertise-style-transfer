@@ -1,40 +1,8 @@
-## Welcome to GitHub Pages
+# What is Expertise Style Transfer?
+Prvasive cognitive bias exhibited across all domains can lead to discrepancies between an expert’s advice and a layman’s understanding of it. To tancle this problem, we propose a new task of text style transfer between expert language and layman language, namely **Expertise Style Transfer**(EST), and contribute a manually annotated dataset in the medical domain for this task.
+# How we construct this dataset?
 
-You can use the [editor on GitHub](https://github.com/srhthu/expertise-style-transfer.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# EST Dataset examples
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-Expertise Style Transfer Dataset
-## Header 2
-This dataset is for paper "" ACL 2020
-### Header 3
-Data format
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/srhthu/expertise-style-transfer.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Download
+You can download the EST dataset on [link to dataset](https://google.com)
