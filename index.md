@@ -7,14 +7,14 @@ Prvasive cognitive bias exhibited across all domains can lead to discrepancies b
  </ul>
  
  <table>
-  <th>
+  <tr>
   <td> row 1,1 </td>
   <td> row 1,2 </td>
-  </th>
-  <th>
+  </tr>
+  <tr>
   <td> row 2,1 </td>
   <td> row 2,2 </td>
-  </th>
+  </tr>
  </table>
  
 # EST Dataset examples
