@@ -8,7 +8,7 @@ include two parallel versions of texts, one tailored for consumers and the other
 
 # Dataset download
 You can download the EST dataset on [link to dataset](https://google.com).  
-`train.csv` contains xxx training samples, has the following columns:
+`train.csv` contains xxx training samples, which has the following columns:
 ```
 sent_text
 page_category
@@ -16,3 +16,4 @@ page_title
 topic
 style
 ```
+`test.csv` contains 675 test samples, each row of which is `sent_text_expertise` and `sent_text_laymen` joint by `\\t`
