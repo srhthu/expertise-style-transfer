@@ -1,5 +1,7 @@
-# What is Expertise Style Transfer?
-Prvasive cognitive bias exhibited across all domains can lead to discrepancies between an expert’s advice and a layman’s understanding of it. To tackle this problem, we propose a new task of text style transfer between expert language and layman language, namely **Expertise Style Transfer** (EST), and contribute a manually annotated dataset in the medical domain for this task.
+# What is the task of Expertise Style Transfer?
+**Expertise Style Transfer** (EST) is a new task of text style transfer between expert language and layman language, which is to tackle the problem of discrepancies between an expert’s advice and a layman’s understanding of it. This problem is usually caused by the prvasive cognitive bias exhibited across all domains.
+We contribute a manually annotated dataset, namely **MSD**, in the medical domain to promote researches into this task.
+[Paper Link](https:google.com)
 
 # How we construct this dataset?
 The dataset is derived from human-written medical references, [The Merck Manuals](https://www.msdmanuals.com/), which
@@ -16,4 +18,4 @@ page_title
 topic
 style
 ```
-`test.csv` contains 675 test samples, each row of which is `sent_text_expertise` and `sent_text_laymen` joint by `\\t`
+`test.csv` contains 675 test samples, each row of which is `sent_text_expertise` and `sent_text_laymen` joint by `\t`
