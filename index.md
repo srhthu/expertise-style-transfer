@@ -24,7 +24,7 @@ style
 ## Contact
 If you have any question, please contact @srhthu
 
-<scripttype="text/javascript"src="jquery-3.5.0.min.js"></script>
+<script type="text/javascript" src="jquery-3.5.0.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
 		console.log('hi');
