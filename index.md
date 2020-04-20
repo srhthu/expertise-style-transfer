@@ -1,7 +1,7 @@
 
 ## What is the task of Expertise Style Transfer?
 **Expertise Style Transfer** (EST) is a new task of text style transfer between expert language and layman language, which is to tackle the problem of discrepancies between an expert’s advice and a layman’s understanding of it. This problem is usually caused by the prvasive cognitive bias exhibited across all domains.
-We contribute a manually annotated dataset, namely **MSD**, in the medical domain to promote researches into this task.
+We contribute a manually annotated dataset, namely **MSD**, in the medical domain to promote research into this task.
 [Paper Link](https://google.com)
 
 ## How we construct this dataset?
