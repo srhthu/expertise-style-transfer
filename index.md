@@ -1,7 +1,15 @@
+<script type="text/javascript">
+	$(document).ready(function() {
+	    //为超链接加上target='_blank'属性
+		$('a[href^="http"]').each(function() {
+			$(this).attr('target', '_blank');
+		});
+	});
+</script>
 ## What is the task of Expertise Style Transfer?
 **Expertise Style Transfer** (EST) is a new task of text style transfer between expert language and layman language, which is to tackle the problem of discrepancies between an expert’s advice and a layman’s understanding of it. This problem is usually caused by the prvasive cognitive bias exhibited across all domains.
 We contribute a manually annotated dataset, namely **MSD**, in the medical domain to promote researches into this task.
-[Paper Link](https:google.com)
+[Paper Link](https://google.com)
 
 ## How we construct this dataset?
 The dataset is derived from human-written medical references, [The Merck Manuals](https://www.msdmanuals.com/), which
