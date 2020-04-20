@@ -9,7 +9,7 @@ include two parallel versions of texts, one tailored for consumers and the other
 ![data example](/data_example.png)
 
 ## Dataset download
-You can download the EST dataset on [link to dataset](https://google.com).  
+You can download the EST dataset on this [dataset link](https://drive.google.com/open?id=15n14BcbZDc7FX-PeRlbjCV_kAbDDjePw).  
 `train.csv` contains xxx training samples, which has the following columns:
 ```
 sent_text
