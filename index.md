@@ -1,11 +1,4 @@
-<script type="text/javascript">
-	$(document).ready(function() {
-		console.log('hi');
-		$('a[href^="http"]').each(function() {
-			$(this).attr('target', '_blank');
-		});
-	});
-</script>
+
 ## What is the task of Expertise Style Transfer?
 **Expertise Style Transfer** (EST) is a new task of text style transfer between expert language and layman language, which is to tackle the problem of discrepancies between an expert’s advice and a layman’s understanding of it. This problem is usually caused by the prvasive cognitive bias exhibited across all domains.
 We contribute a manually annotated dataset, namely **MSD**, in the medical domain to promote researches into this task.
@@ -30,3 +23,13 @@ style
 
 ## Contact
 If you have any question, please contact @srhthu
+
+<scripttype="text/javascript"src="jquery-3.5.0.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		console.log('hi');
+		$('a[href^="http"]').each(function() {
+			$(this).attr('target', '_blank');
+		});
+	});
+</script>
