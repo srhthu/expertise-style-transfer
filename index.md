@@ -11,18 +11,23 @@ include two parallel versions of texts, one tailored for consumers and the other
 
 ## Dataset download
 You can download the EST dataset on this [dataset link](https://drive.google.com/open?id=15n14BcbZDc7FX-PeRlbjCV_kAbDDjePw).  
-`train.csv` contains xxx training samples, which has the following columns:
+`train.txt` contains `130349` expert and `114674` layman sentences. Each line of this file is a JSON serialized dictionary object with the following keys:
 ```
-sent_text
-page_category
-page_title
-topic
-style
+text: a sentence string with word tokenization
+label: 0 for expert and 1 for layman
+concepts: a list of concepts
 ```
-`test.csv` contains 675 test samples, each row of which is `sent_text_expertise` and `sent_text_laymen` joint by `\t`
+The `concepts` field gives all medical named entities that are linked to **Unified Medical Language System** (UMLS) by utilizing  [QuickUMLS](https://github.com/Georgetown-IR-Lab/QuickUMLS) tools.
+Each concept is a dictionary object with the folloing keys:
+```
+range: a tuple consisting of the start and end word position
+term: concept string
+cui: a list of Concept Unique Identifiers defined by UMLS
+```
+`test.txt` contains 675 pairs of parallel sentences. Each line of this file shares the same format of `train.txt`. But rows with odd numbers are expert sentences and the next even-number rows are corresponding layman sentences.
 
 ## Contact
-If you have any question, please contact @srhthu
+If you have any question, please contact 
 
 <script type="text/javascript" src="jquery-3.5.0.min.js"></script>
 <script type="text/javascript">
