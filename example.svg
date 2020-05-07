@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 example.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11.811in" height="3.93701in"
+		viewBox="0 0 850.394 283.465" xml:space="preserve" color-interpolation-filters="sRGB" class="st11">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#72c3a7;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#feeca0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {fill:#000000;font-family:Cambria;font-size:1.33333em}
+		.st5 {fill:#c00000;font-size:1em;font-style:italic}
+		.st6 {font-size:1em}
+		.st7 {fill:#595959;font-family:Arial;font-size:2.50001em;font-weight:bold}
+		.st8 {fill:#000000;font-family:Segoe UI Black;font-size:1.33333em}
+		.st9 {fill:#c00000;font-family:Cambria;font-size:1.33333em;font-style:italic}
+		.st10 {fill:#000000;font-size:1em;font-style:normal}
+		.st11 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape21-1" v:mID="21" v:groupContext="shape" transform="translate(437.386,-8.50394)">
+			<title>矩形.21</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="59.5276" width="391.181" height="223.937" class="st1"/>
+		</g>
+		<g id="shape20-3" v:mID="20" v:groupContext="shape" transform="translate(34.8661,-8.50394)">
+			<title>矩形</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="59.5276" width="396.85" height="223.937" class="st2"/>
+		</g>
+		<g id="shape1-5" v:mID="1" v:groupContext="shape" transform="translate(34.8661,-163.661)">
+			<title>工作表.1</title>
+			<desc>Many cause dyspnea, pleuritic chest pain, or both.</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="193.252" cy="254.37" width="386.51" height="58.189"/>
+			<rect x="0" y="225.276" width="386.504" height="58.189" class="st3"/>
+			<text x="0.604em 1.42em 1.908em 2.466em 2.97em 3.19em 3.631em 4.119em 4.672em 5.101em 5.589em" y="259.17" class="st4"
+					v:langID="2052"><v:paragraph v:indentLeft="5.67" v:horizAlign="3"/><v:tabList/>Many cause <tspan x="5.809em 6.333em
+							 6.793em 7.175em 7.702em 8.237em 8.694em" dy="0em" class="st5">dyspnea</tspan><tspan x="9.22em 9.425em"
+						dy="0em" class="st6" v:langID="1033">, </tspan><tspan x="9.645em 10.201em 10.473em 10.961em 11.513em 11.927em
+							 12.204em 12.543em 12.821em 13.262em 13.482em 13.923em 14.474em 14.962em 15.392em 15.73em 15.951em 16.507em
+							 16.995em 17.273em" dy="0em" class="st6" v:langID="1033">pleuritic chest pain</tspan><tspan x="17.831em
+							 18.036em" dy="0em" class="st6" v:langID="1033">, </tspan><tspan x="18.256em 18.787em 19.201em 19.421em
+							 19.968em 20.499em 20.837em" dy="0em" class="st6" v:langID="1033">or both</tspan><tspan x="21.389em"
+						dy="0em" class="st6" v:langID="1033">.</tspan></text>		</g>
+		<g id="shape4-14" v:mID="4" v:groupContext="shape" transform="translate(437.386,-163.661)">
+			<title>工作表.4</title>
+			<desc>The most common symptoms, regardless of the type of fluid in ...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="193.252" cy="254.37" width="386.51" height="58.189"/>
+			<rect x="0" y="225.276" width="386.504" height="58.189" class="st3"/>
+			<text x="0.604em 1.197em 1.749em 2.237em 2.606em 3.438em 3.969em 4.399em 4.737em 5.107em 5.548em 6.079em 6.911em 7.743em
+						 8.274em 8.832em 9.201em 9.631em 10.135em 10.967em 11.523em 11.862em 12.392em 13.224em" y="239.97"
+					class="st4" v:langID="1033"><v:paragraph v:indentLeft="5.67" v:horizAlign="3"/><v:tabList/>The most common symptoms<tspan
+						x="13.654em 13.859em" dy="0em" class="st6">, </tspan><tspan x="14.229em 14.643em 15.13em 15.624em 16.113em
+							 16.526em 17.081em 17.352em 17.84em 18.27em 18.7em 19.069em 19.6em 19.903em 20.273em 20.611em 21.163em
+							 21.651em 22.02em 22.359em 22.863em 23.419em 23.907em" dy="0em" class="st6">regardless of the type </tspan><tspan
+						x="0.604em 1.135em 1.438em 1.725em 2.028em 2.299em 2.852em 3.13em 3.684em 3.972em 4.249em 4.808em 5.095em
+							 5.433em 5.985em" dy="1.2em" class="st6">of fluid in the</tspan><tspan x="6.54em" dy="0em" class="st6"
+						v:langID="2052"> </tspan><tspan x="6.827em 7.384em 7.655em 8.143em 8.695em 9.109em 9.597em 9.868em 10.156em
+							 10.585em 11.142em 11.63em 12.071em 12.559em 12.846em 13.377em 13.79em 14.078em 14.356em 14.694em 15.124em
+							 15.411em 15.852em 16.34em 16.892em 17.322em" dy="0em" class="st6">pleural space or its cause</tspan><tspan
+						x="17.81em 18.015em" dy="0em" class="st6">, </tspan><tspan x="18.302em 18.791em 19.204em 19.692em" dy="0em"
+						class="st6">are </tspan><tspan x="19.979em 20.361em 20.891em 21.398em 21.806em 22.151em 22.686em 23.143em
+							 23.525em 23.907em" dy="0em" class="st5">shortness </tspan><tspan x="0.604em 1.111em 1.404em 1.624em
+							 2.145em 2.552em 3.009em 3.535em 3.88em" dy="1.2em" class="st5">of breath</tspan><tspan x="4.41em"
+						dy="0em" class="st6"> </tspan><tspan x="4.631em 5.119em 5.677em 6.232em 6.452em 6.893em 7.445em 7.932em 8.362em
+							 8.701em 8.921em 9.477em 9.965em 10.243em" dy="0em" class="st6">and chest pain</tspan><tspan x="10.801em"
+						dy="0em" class="st6">.</tspan></text>		</g>
+		<g id="shape7-29" v:mID="7" v:groupContext="shape" transform="translate(157.291,-252.126)">
+			<title>工作表.7</title>
+			<desc>Expert</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="76" cy="273.465" width="152" height="20"/>
+			<rect x="0" y="263.465" width="152" height="20" class="st3"/>
+			<text x="29.32" y="282.46" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Expert</text>		</g>
+		<g id="shape9-32" v:mID="9" v:groupContext="shape" transform="translate(556.976,-252.126)">
+			<title>工作表.9</title>
+			<desc>Layman</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="76" cy="273.465" width="152" height="20"/>
+			<rect x="0" y="263.465" width="152" height="20" class="st3"/>
+			<text x="19.31" y="282.46" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Layman</text>		</g>
+		<g id="shape12-35" v:mID="12" v:groupContext="shape" transform="translate(0.374803,-182.756)">
+			<title>工作表.12</title>
+			<desc>I.</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.2457" cy="273.465" width="34.5" height="20"/>
+			<rect x="0" y="263.465" width="34.4913" height="20" class="st3"/>
+			<text x="11.9" y="278.26" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>I.</text>		</g>
+		<g id="shape13-38" v:mID="13" v:groupContext="shape" transform="translate(0.374803,-131.732)">
+			<title>工作表.13</title>
+			<desc>II.</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.2457" cy="273.465" width="34.5" height="20"/>
+			<rect x="0" y="263.465" width="34.4913" height="20" class="st3"/>
+			<text x="9.11" y="278.26" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>II.</text>		</g>
+		<g id="shape14-41" v:mID="14" v:groupContext="shape" transform="translate(0.374803,-60.8661)">
+			<title>工作表.14</title>
+			<desc>III.</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="17.2457" cy="273.465" width="34.5" height="20"/>
+			<rect x="0" y="263.465" width="34.4913" height="20" class="st3"/>
+			<text x="6.32" y="278.26" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>III.</text>		</g>
+		<g id="shape15-44" v:mID="15" v:groupContext="shape" transform="translate(34.8661,-112.638)">
+			<title>工作表.15</title>
+			<desc>About 1/1000 hypertensive patients has a pheochromocytoma.</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="193.252" cy="254.37" width="386.51" height="58.189"/>
+			<rect x="0" y="225.276" width="386.504" height="58.189" class="st3"/>
+			<text x="0.604em 1.193em 1.714em 2.221em 2.756em 3.101em" y="249.57" class="st9" v:langID="1033"><v:paragraph
+						v:indentLeft="5.67" v:horizAlign="3"/><v:tabList/>About <tspan x="4.435em" dy="0em" class="st6">1</tspan><tspan
+						x="4.963em" dy="0em" class="st6">/</tspan><tspan x="5.429em 5.957em 6.485em 7.014em" dy="0em" class="st6">1000</tspan><tspan
+						x="7.542em" dy="0em" class="st10"> </tspan><tspan x="8.876em 9.428em 9.932em 10.488em 10.976em 11.389em 11.728em
+							 12.215em 12.773em 13.203em 13.481em 13.985em 14.473em 15.806em 16.363em 16.851em 17.189em 17.467em 17.955em
+							 18.513em 18.851em 19.281em 20.615em 21.167em 21.655em 22.085em 23.418em 23.907em" dy="0em"
+						class="st10">hypertensive patients has a </tspan><tspan x="0.604em 1.16em 1.712em 2.2em 2.731em 3.172em 3.723em
+							 4.137em 4.668em 5.5em 6.031em 6.472em 6.975em 7.314em 7.845em 8.677em" dy="1.2em" class="st10">pheochromocytoma</tspan><tspan
+						x="9.165em" dy="0em" class="st10">.</tspan></text>		</g>
+		<g id="shape16-54" v:mID="16" v:groupContext="shape" transform="translate(437.386,-112.638)">
+			<title>工作表.16</title>
+			<desc>Pheochromocytomas may be quite small.</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="193.252" cy="254.37" width="386.51" height="58.189"/>
+			<rect x="0" y="225.276" width="386.504" height="58.189" class="st3"/>
+			<text x="0.604em 1.172em 1.724em 2.212em 2.743em 3.183em 3.735em 4.149em 4.68em 5.512em 6.042em 6.483em 6.987em 7.326em
+						 7.856em 8.688em 9.177em 9.606em 9.826em 10.659em 11.147em 11.651em 11.871em 12.418em 12.906em" y="259.17"
+					class="st4" v:langID="1033"><v:paragraph v:indentLeft="5.67" v:horizAlign="3"/><v:tabList/>Pheochromocytomas may be <tspan
+						x="13.126em 13.648em 14.183em 14.454em 14.799em 15.256em 15.476em 15.858em 16.657em 17.183em 17.45em"
+						dy="0em" class="st5">quite small</tspan><tspan x="17.716em" dy="0em" class="st6">.</tspan></text>		</g>
+		<g id="shape18-59" v:mID="18" v:groupContext="shape" transform="translate(34.8661,-41.7717)">
+			<title>工作表.18</title>
+			<desc>In patients with papilledema, vision is usually not affected ...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="193.252" cy="254.37" width="386.51" height="58.189"/>
+			<rect x="0" y="225.276" width="386.504" height="58.189" class="st3"/>
+			<text x="0.604em 0.929em 1.487em 2.021em 2.578em 3.066em 3.404em 3.682em 4.17em 4.728em 5.066em 5.496em 6.031em 6.805em
+						 7.083em 7.422em 7.973em 8.508em 9.064em 9.553em 10.109em 10.387em 10.658em 10.929em 11.417em 11.972em 12.46em
+						 13.292em" y="230.37" class="st4" v:langID="1033"><v:paragraph v:indentLeft="5.67" v:horizAlign="3"/><v:tabList/>In patients with papilledema<tspan
+						x="13.78em 13.985em" dy="0em" class="st6">, </tspan><tspan x="14.52em 15.024em 15.302em 15.731em 16.009em
+							 16.54em 17.098em 17.633em 17.911em 18.34em 18.875em 19.427em 19.857em 20.409em 20.898em 21.169em 21.441em
+							 21.945em 22.479em 23.037em 23.568em 23.907em" dy="0em" class="st6">vision is usually not </tspan><tspan
+						x="0.604em 1.093em 1.395em 1.698em 2.186em 2.627em 2.965em 3.453em 4.008em 4.594em 4.872em 5.43em 5.708em
+							 6.047em 6.324em 6.813em 7.084em 7.356em" dy="1.2em" class="st6">affected initially</tspan><tspan x="
+							7.86em 8.065em" dy="0em" class="st6">, </tspan><tspan x="8.652em 9.199em 9.751em" dy="0em" class="st6">but</tspan><tspan
+						x="10.456em" dy="0em" class="st6" v:langID="2052"> </tspan><tspan x="11.043em 11.473em 11.961em 12.401em
+							 12.932em 13.49em 14.045em" dy="0em" class="st6">seconds</tspan><tspan x="14.475em" dy="0em"
+						class="st6">-</tspan><tspan x="14.807em 15.078em 15.609em 16.167em 16.661em 17.248em 17.742em 18.156em 18.644em
+							 19.148em 19.426em 19.984em 20.478em 21.065em 21.596em 22.148em 22.486em 23.073em 23.604em 23.907em"
+						dy="0em" class="st6">long graying out of </tspan><tspan x="0.604em 1.108em 1.386em 1.816em 2.094em 2.624em"
+						dy="1.2em" class="st6">vision</tspan><tspan x="3.182em 3.388em" dy="0em" class="st6">, </tspan><tspan x="
+							3.889em 4.191em 4.463em 4.741em 5.182em 5.706em 6.194em 6.607em 6.885em 7.443em" dy="0em" class="st6">flickering</tspan><tspan
+						x="7.938em 8.143em" dy="0em" class="st6">, </tspan><tspan x="8.644em 9.175em 9.588em 10.089em 10.637em 10.908em
+							 11.46em 11.874em 12.288em 12.775em 13.33em 13.831em 14.362em 14.776em 15.277em 15.831em 16.362em 16.914em
+							 17.462em 17.733em 18.221em 18.722em 19.226em 19.504em 19.934em 20.211em 20.742em" dy="0em" class="st6">or blurred or double vision</tspan><tspan
+						x="21.581em" dy="0em" class="st6" v:langID="2052"> </tspan><tspan x="22.082em 22.914em 23.403em 23.907em"
+						dy="0em" class="st6">may </tspan><tspan x="0.604em 1.135em 1.576em 2.017em 2.569em" dy="1.2em" class="st6">occur</tspan><tspan
+						x="2.983em" dy="0em" class="st6">.</tspan></text>		</g>
+		<g id="shape19-80" v:mID="19" v:groupContext="shape" transform="translate(437.386,-41.7717)">
+			<title>工作表.19</title>
+			<desc>At first, papilledema may be present without affecting vision...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="193.252" cy="254.37" width="386.51" height="58.189"/>
+			<rect x="0" y="225.276" width="386.504" height="58.189" class="st3"/>
+			<text x="0.604em 1.227em 1.566em 1.839em 2.142em 2.42em 2.834em 3.263em" y="220.77" class="st4" v:langID="1033"><v:paragraph
+						v:indentLeft="5.67" v:horizAlign="3"/><v:tabList/>At first<tspan x="3.602em 3.807em" dy="0em" class="st6">, </tspan><tspan
+						x="4.081em 4.637em 5.125em 5.681em 5.959em 6.23em 6.502em 6.99em 7.544em 8.032em 8.864em 9.352em 9.626em
+							 10.458em 10.946em 11.45em 11.724em 12.271em 12.759em 13.033em 13.589em 14.003em 14.491em 14.92em 15.408em
+							 15.966em 16.304em 16.578em 17.353em 17.63em 17.969em 18.521em 19.051em 19.604em 19.942em 20.216em 20.704em
+							 21.007em 21.309em 21.797em 22.238em 22.577em 22.854em 23.412em 23.907em" dy="0em" class="st6">papilledema may be present without affecting </tspan><tspan
+						x="0.604em 1.108em 1.386em 1.816em 2.094em 2.624em" dy="1.2em" class="st6">vision</tspan><tspan x="3.182em"
+						dy="0em" class="st6">.<v:newlineChar/></tspan><tspan x="0.604em 1.141em 1.412em 1.9em 2.388em 2.726em 3.004em
+							 3.562em 4.056em 4.338em 4.842em 5.12em 5.549em 5.827em 6.358em 6.916em 7.197em 7.638em 8.19em 8.678em
+							 9.236em 9.73em 10.218em 10.648em" dy="1.2em" class="st6">Fleeting vision changes </tspan><tspan x="
+							10.929em" dy="0em" class="st6">(</tspan><tspan x="11.311em 11.858em 12.13em 12.682em 13.096em 13.509em
+							 13.997em 14.552em 14.833em 15.337em 15.615em 16.045em 16.322em 16.853em" dy="0em" class="st6">blurred vision</tspan><tspan
+						x="17.411em 17.616em" dy="0em" class="st6">, </tspan><tspan x="17.898em 18.452em 18.983em 19.535em 20.083em
+							 20.354em 20.842em 21.123em 21.627em 21.905em 22.335em 22.613em 23.143em" dy="0em" class="st6">double vision</tspan><tspan
+						x="23.702em 23.907em" dy="0em" class="st6">, </tspan><tspan x="0.604em 0.907em 1.179em 1.456em 1.897em 2.422em
+							 2.909em 3.323em 3.601em 4.159em" dy="1.2em" class="st6">flickering</tspan><tspan x="4.653em 4.858em"
+						dy="0em" class="st6">, </tspan><tspan x="5.16em 5.691em" dy="0em" class="st6">or</tspan><tspan x="6.186em"
+						dy="0em" class="st6" v:langID="2052"> </tspan><tspan x="6.487em 6.928em 7.459em 8.291em 8.847em 9.119em 9.607em
+							 9.945em 10.433em 10.734em 11.006em 11.537em 11.966em 12.396em 12.698em 13.229em 13.531em 13.833em 14.337em
+							 14.615em 15.044em 15.322em 15.853em" dy="0em" class="st6">complete loss of vision</tspan><tspan x="
+							16.411em 16.793em" dy="0em" class="st6">) </tspan><tspan x="17.095em 17.433em 17.937em 18.493em 18.771em
+							 19.212em 19.7em 19.972em 20.243em 20.747em 21.049em 21.32em 21.808em 22.238em 22.577em 22.854em 23.412em
+							 23.907em" dy="0em" class="st6">typically lasting </tspan><tspan x="0.604em 1.034em 1.522em 1.963em 2.493em
+							 3.052em 3.606em 4.036em 4.256em 4.744em 5.158em 5.646em 5.866em 6.307em 6.859em 7.347em 7.761em 8.249em
+							 8.69em 9.028em 9.516em 9.929em 10.207em 10.637em 10.975em 11.253em 11.694em 11.914em 12.445em"
+						dy="1.2em" class="st6">seconds are characteristic of</tspan><tspan x="12.748em" dy="0em" class="st6"
+						v:langID="2052"> </tspan><tspan x="12.968em 13.524em 14.012em 14.569em 14.846em 15.118em 15.389em 15.877em
+							 16.432em 16.92em 17.752em" dy="0em" class="st6">papilledema</tspan><tspan x="18.24em" dy="0em"
+						class="st6">.</tspan></text>		</g>
+	</g>
+</svg>
