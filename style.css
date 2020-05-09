@@ -79,7 +79,7 @@
 .section h3 {
     font-size: 30px;
     font-family: "Arial";
-    margin: 40px 0 40px 0;
+    margin: 30px 0 30px 0;
     /*border-left: 4px solid #D34519;*/
 }
 
@@ -97,8 +97,8 @@
 }
 
 .section ul,ol {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .section li {
@@ -120,6 +120,7 @@
     padding-left: 80px;
     font-size: 15px;
     color: #999;
+    line-height: 1.5em;
 }
 
 #statistic table td {
@@ -167,7 +168,11 @@
 /*Title*/
 
 #title-line {
-    margin: 100px 15% 50px 15%;
+    margin: 90px 15% 30px 15%;
+}
+
+#title-line h1 {
+    margin-bottom: 10px;
 }
 
 #title-line div:nth-child(1){
@@ -192,52 +197,58 @@
     margin-right: 15%;
     margin-top: 20px;
     
+    
+}
+
+.button {
     background: #F3F3F3;
     border: 1px #DADADA solid;
     padding: 5px 10px;
     border-radius: 2px;
-    font-weight: bold;
-    font-size: 9pt;
+    font-weight: normal;
+    font-size: 18px;
     outline: none;
+    color: #444444;
+    vertical-align: middle;
 }
 
-.title-link:hover {
+.button:hover {
     border: 1px #C6C6C6 solid;
     box-shadow: 1px 1px 1px #EAEAEA;
     cursor: pointer;
     background: #F7F7F7;
 }
 
-.title-link a {
+.button a {
     text-decoration: none;
-    
-    color:white;
+    color:#444444;
     font-size: 20px;
     font-family: "Arial";
 }
 
-.title-link a:hover {
+.button a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: #333333
 }
 
-.title-link.blue {
+.button.blue {
     background: #4C8FEB;
     border: 1px #3079ED solid;
     box-shadow: inset 0 1px 0 #80B0FB;
 }
 
-.title-link.blue a {
+.button.blue a {
     color: white;
 }
 
-.title-link.blue:hover {
+.button.blue:hover {
     border: 1px #2F5BB7 solid;
     box-shadow: 0 1px 1px #EAEAEA, inset 0 1px 0 #5A94F1;
     background: #3F83E1;
 }
 
-.title-link.red {
+.button.red {
     background: -webkit-linear-gradient(top, #DD4B39, #D14836); 
     background: -moz-linear-gradient(top, #DD4B39, #D14836); 
     background: -ms-linear-gradient(top, #DD4B39, #D14836); 
@@ -245,16 +256,96 @@
     text-shadow: 0 1px 0 #C04131;
 }
 
-.title-link.red:hover {
+.button.red:hover {
      background: -webkit-linear-gradient(top, #DD4B39, #C53727);
      background: -moz-linear-gradient(top, #DD4B39, #C53727);
      background: -ms-linear-gradient(top, #DD4B39, #C53727);
      border: 1px solid #AF301F;
 }
 
+.button.red a {
+    color: white;
+}
+
+
+/*Interaction*/
+#interaction {
+    margin-top: 20px;
+    padding: 15px 15px 15px 15px;
+    border: 3px dashed #FDA251;
+}
+
+.collapse * {
+    display:inline-block;
+}
+
+.interact-btn.button {
+    font-size: 20px;
+}
+
+#btn-verify {
+    position: absolute;
+    left: 30%;
+}
+
+#interaction .interact-content {
+    margin: 0px 0 0px 0;
+    
+}
+
+#interaction .interact-sent {
+    margin: 5px 20px 5px 20px;
+    color: #333;
+    text-align: center;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+#interaction .interact-sent:hover {
+    cursor: pointer;
+    border: 2px solid #787878;
+}
+
+#interaction .interact-sent[data-status="select"] {
+    border: 2px solid #787878;
+}
+
+#interaction .interact-sent[data-status="right"] {
+    border: 2px solid #24cc5c;
+}
+
+#interaction .interact-sent[data-status="wrong"] {
+    border: 2px solid #ec3e3e;
+}
+
+#interaction .interact-sent p{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-family: "Cambria";
+}
+
+
+
+/*Footnote*/
 #footnote {
     background-color: #D5D5D5;
     margin-top: 20px;
     width: 100%;
     height: 50px;
+    text-align:center;
+    vertical-align: middle;
+    font-family: "Cambria";
+    color: #333;
+    padding-top: 10px;
+}
+
+a.black {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+#footnote a.black {
+    color: #333;
 }
