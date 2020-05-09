@@ -46,6 +46,9 @@ function verify_one(sent_div){
     else if(status=="select" && label == "ne"){
         sent_div.attr("data-status", "wrong");
     }
+    else if(status=="normal" && label == "e"){
+        sent_div.attr("data-status", "right");
+    }
 }
 
 function show_another(){
