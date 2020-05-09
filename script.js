@@ -33,6 +33,7 @@ var example_idx = -1;
 function verify(){
     var sel_st = $(".interact-sent[data-status='select']");
     if(sel_st.length==1){
+        console.log('verify');
         var x = sel_st.attr("data-label") == "e"? "an <b>expert</b>": "a <b>layman</b>";
         $(".interact-msg span").html(x);
         status_show();
@@ -53,15 +54,17 @@ function example_click(){
     if($(this).attr("data-status")=="normal"){
         $(this).attr("data-status", "select");
         $(this).siblings().attr("data-status", "normal");
+        verify();
     }
     else if($(this).attr("data-status")=="select"){
         $(this).attr("data-status", "normal");
+        status_hidden();
     }
-    status_hidden();
 }
 
 function status_show(){
-    $(".interact-msg").css("transition", "0.2s ease-in");
+    console.log("show");
+    console.log($(".interact-msg").css("transition", "0.2s ease-in"));
     $(".interact-msg").css("visibility", "visible").css("opacity", 1);
 }
 
