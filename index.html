@@ -40,12 +40,12 @@
         
         <p><b>Expertise Style Transfer</b> (EST) is a new task of text style transfer between expert language and layman language, which is to tackle the problem of discrepancies between an expert's advice and a layman's understanding of it. This problem is usually caused by the prvasive cognitive bias exhibited across all domains. We contribute a manually annotated dataset, namely MSD, in the medical domain to promote research into this task.</p>
 
-        <p>Here we show random examples from the test set. Choose the sentence in expert language you think and verify your choice!</p>
+        <p>Here we show random examples from the test set. Click the Result button to see the style!</p>
 
+        <!--Interaction here-->
         <div id="interaction">
-            <div class="collapse">
-                <button class="interact-btn button" id="btn-verify">Verify</button>
-                <button class="interact-btn button" id="btn-show">Show Another Example</button>
+            <div>
+                <h4>Which sentence do you prefer?</h4>
             </div>
             <div class="interact-content">
                 <div class="interact-sent" id="int-sent-1" data-status="normal">
@@ -54,6 +54,11 @@
                 <div class="interact-sent" id="int-sent-2" data-status="normal">
                     <p class="normal">This is another example.</p>
                 </div>
+            </div>
+            <div class="interact-status">
+                <button class="interact-btn button" id="btn-verify">Result</button>
+                <span class="interact-msg">You choose <span>an expert</span> sentence!</span>
+                <button class="interact-btn button" id="btn-show">Show Another Example</button>
             </div>
         </div>
 
@@ -68,19 +73,10 @@
         
         <p>Our dataset is challenging from two aspects:</p>
         <ul>
-        <li><p><B>Knowledge Gap</B>: Domain knowledge is the key factor that influences the expertise level of text, which is also a key difference from conventional styles. We identify two major types of knowledge gaps in MSD: <b>terminology</b>, e.g., <i>dyspnea</i> in the first example of Figure 1; and <b>empirical evidence</b> in the second example, that is, doctors prefer to use statistics (<i>About 1/1000</i>), while laymen do not (<i>quite small</i>)</p></li>
-        <li><p><B>Lexical & Structural Modification</B>: Most ST models only perform lexical modification, while leaving structures unchanged. Actually, syntactic structures play a significant role in language styles, especially regarding complexity or simplicity. As the third example in Figure 1 showns, a complex sentence can be expressed with several simple sentences by appropriately splitting content.</p></li>
+        <li><p><B>Knowledge Gap</B>: Domain knowledge is the key factor that influences the expertise level of text, which is also a key difference from conventional styles. We identify two major types of knowledge gaps in MSD: <b>terminology</b>, e.g., <i>dyspnea</i>; and <b>empirical evidence</b>, that is, doctors prefer to use statistics (<i>About 1/1000</i>), while laymen do not (<i>quite small</i>)</p></li>
+        <li><p><B>Lexical & Structural Modification</B>: Most ST models only perform lexical modification, while leaving structures unchanged. Actually, syntactic structures play a significant role in language styles, especially regarding complexity or simplicity. The statistics part will show that the  sentences in MSD have more lexical and structural modification.</p></li>
         </ul>
-    
-        <div id="fig1">
-            <!--300*100-->
-            <embed width="1050" height="350" src="example.svg" type="image/svg+xml" />
-            <div class="note">Figure 1: Example of Expertise Style Transfer.</div>
-        </div>
         
-        
-        
-        <!--Interaction here-->
 
     </div>
     <!--3. Construction-->
