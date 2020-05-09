@@ -275,8 +275,14 @@
     border: 3px dashed #FDA251;
 }
 
-.collapse * {
-    display:inline-block;
+#interaction h4 {
+    font-family: "Cambria";
+    font-size: 20px;
+}
+
+.interact-status {
+    text-align: left;
+    margin-left: 20px;
 }
 
 .interact-btn.button {
@@ -284,8 +290,23 @@
 }
 
 #btn-verify {
-    position: absolute;
-    left: 30%;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.interact-msg {
+    font-size: 20px;
+    font-family: "Arial";
+    color: #333;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s ease-in;
+    vertical-align: middle;
+}
+
+#btn-show {
+    float: right;
+    margin-right: 20px;
 }
 
 #interaction .interact-content {
@@ -298,7 +319,7 @@
     color: #333;
     text-align: center;
     border: 2px solid white;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 #interaction .interact-sent:hover {

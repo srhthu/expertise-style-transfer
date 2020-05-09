@@ -31,23 +31,11 @@ var example_data = [
 var example_idx = -1;
 
 function verify(){
-    verify_one($("#int-sent-1"));
-    verify_one($("#int-sent-2"));
-}
-
-function verify_one(sent_div){
-    var status = sent_div.attr("data-status");
-    var label = sent_div.attr("data-label");
-    console.log(status);
-    console.log(label);
-    if(status=="select" && label == "e"){
-        sent_div.attr("data-status", "right");
-    }
-    else if(status=="select" && label == "ne"){
-        sent_div.attr("data-status", "wrong");
-    }
-    else if(status=="normal" && label == "e"){
-        sent_div.attr("data-status", "right");
+    var sel_st = $(".interact-sent[data-status='select']");
+    if(sel_st.length==1){
+        var x = sel_st.attr("data-label") == "e"? "an <b>expert</b>": "a <b>layman</b>";
+        $(".interact-msg span").html(x);
+        status_show();
     }
 }
 
@@ -58,6 +46,7 @@ function show_another(){
     $("#int-sent-1").attr("data-label", example_data[example_idx][0][0]);
     $("#int-sent-2 p").text(example_data[example_idx][1][1]);
     $("#int-sent-2").attr("data-label", example_data[example_idx][1][0]);
+    status_hidden();
 }
 
 function example_click(){
@@ -68,6 +57,17 @@ function example_click(){
     else if($(this).attr("data-status")=="select"){
         $(this).attr("data-status", "normal");
     }
+    status_hidden();
+}
+
+function status_show(){
+    $(".interact-msg").css("transition", "0.2s ease-in");
+    $(".interact-msg").css("visibility", "visible").css("opacity", 1);
+}
+
+function status_hidden(){
+    $(".interact-msg").css("transition", "0s");
+    $(".interact-msg").css("visibility", "hidden").css("opacity", 0);
 }
 
 function draw_medical_topic(){
