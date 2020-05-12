@@ -67,13 +67,14 @@
     font-family: "Helvetica";
     text-align: justify;
     color: #111;
-    margin-bottom: 5px;
+    line-height: 1.45em;
 }
 
 .section li p {
     font-family: "Helvetica"; /*Cambria*/
-    color: #58585c;
+    color: #333;
     font-size: 18px;
+    line-height: 1.5em;
 }
 
 .section h3 {
@@ -334,7 +335,7 @@
     border: 2px solid white;
     transition: 0.3s;
     display: inline-block;
-    width: 45%;
+    width: 46%;
     vertical-align: top;
 }
 
