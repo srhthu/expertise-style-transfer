@@ -26,7 +26,7 @@ var example_data = [
     ],
     [
         ["e", "Cardiac complications include pericarditis (most commonly)，myocarditis，endocardium and coronary artery vasculitis."],
-        ["ne", "People with lupus may have chest pain due to inflammation of the sac around the heart (pericarditis). More serious but rare effects on the heart are inflammation of the walls of the coronary arteries (coronary artery vasculitis), which can lead to angina; the inflammation of  the surfaces of the heart valve to thicken or develop lesions(bacterial endocarditis); and inflammation of the heart muscle (myocarditis), which can lead to heart failure."],
+        ["ne", "People with lupus may have chest pain due to inflammation of the sac around the heart (pericarditis). More serious but rare effects on the heart are inflammation of the walls of the coronary arteries (coronary artery vasculitis), which can lead to angina; the inflammation of  the surfaces of the heart valve to thicken or develop lesions (bacterial endocarditis); and inflammation of the heart muscle (myocarditis), which can lead to heart failure."],
     ]
 ];
 var example_idx = -1;
