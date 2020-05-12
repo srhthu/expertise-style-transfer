@@ -87,7 +87,7 @@
         <p>The dataset is derived from the world's most trusted health references, <a class="black" href="https://www.msdmanuals.com/" target="_blank">The Merck Manuals</a>, also known as the MSD Manuals. Each article is written through a collaboration between hundreds of medical experts, and includes two versions: one tailored for <i>consumers</i> and the other for <i>professionals</i>.</p>
         <p>Our MSD dataset is constructed in three steps:</p>
         <ul>
-            <li><p><b>Data Preprocessing</b> We collect <u>2601 professional</u> and <u>2487 consumer</u> documents with <u>1185 internal links</u> from the MSD website. Then, we find <u>2551</u> possible parallel groups of sentences by matching their document titles and subsection titles, which denote medical PCIO elements, such as the Diagnosis and Symptoms. For example, all sentences for <i>Atherosclerosis.Symptoms</i> in the professional MSD are aligned with those for <i>Atherosclerosis.Signs</i> in the consumer MSD</p></li>
+            <li><p><b>Data Preprocessing</b> We collect <u>2601 professional</u> and <u>2487 consumer</u> documents with <u>1185 internal links</u> from the MSD website. Then, we find <u>2551</u> possible parallel groups of sentences by matching their document titles and subsection titles, which denote medical PICO elements, such as the Diagnosis and Symptoms. For example, all sentences for <i>Atherosclerosis.Symptoms</i> in the professional MSD are aligned with those for <i>Atherosclerosis.Signs</i> in the consumer MSD</p></li>
             
             <li><p><b>Expert Annotation</b> Given the aligned groups of sentences in professional and consumer MSD, hired doctors select sentences from each version of group that have the same meaning but are written in different styles. The annotated sentence pairs can be used for evaluation.</p></li>
             
@@ -103,7 +103,7 @@
         <tr>
         <td>
             <p>This part gives some statistics of the MSD dataset and compares it with other Style Transfer (ST) and Text Simplification (TS) datasets.</p>
-        <p>Figure 2 shows the distribution of medical topics of MSD Manuals, and Figure 3 displays the PCIO elements' distribution in the test set. Table 1 presents the BLEU and edit distance (ED for short) scores of parallel sentences compared with existing TS and ST datasets. We see that:
+        <p>Figure 2 shows the distribution of medical topics of MSD Manuals, and Figure 3 displays the PICO elements' distribution in the test set. Table 1 presents the BLEU and edit distance (ED for short) scores of parallel sentences compared with existing TS and ST datasets. We see that:
             <ol>
                 <li><p>1. MSD has the lowest BLEU and highest ED. This implies that MSD is very challenging that requires both lexical and structural modifications.</p></li>
                 <li><p>2. TS datasets reflect more structural differences (with higher ED values) as compared to ST datasets, meaning that TS datasets are more complex to transfer.</p></li>
@@ -138,8 +138,8 @@
                 <div class="note">Figure 2: Distribution of dataset based on topics.</div>
             </div>
             <div id="fig3">
-                <svg id="pcio_dis"></svg>
-                <div class="note">Figure 3: Distribution of testing set based on PCIO.</div>
+                <svg id="pico_dis"></svg>
+                <div class="note">Figure 3: Distribution of testing set based on PICO.</div>
             </div>
         </td>
         </tr>
