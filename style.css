@@ -38,7 +38,7 @@
     list-style: none;
     float: left;
     margin-right: 50px;
-    font-family: "Calibri";
+    font-family: "Arial"; /*Calibri*/
 }
 
 .nav-link {
@@ -66,14 +66,14 @@
     font-size: 20px;
     font-family: "Helvetica";
     text-align: justify;
-    color: #313133;
+    color: #111;
     margin-bottom: 5px;
 }
 
 .section li p {
-    font-family: "Cambria";
-    color: #313131;
-    font-size: 19px;
+    font-family: "Helvetica"; /*Cambria*/
+    color: #58585c;
+    font-size: 18px;
 }
 
 .section h3 {
@@ -85,7 +85,7 @@
 
 .note {
     text-align: center;
-    font-family: "Cambria";
+    font-family: "Arial";  /*Cambria*/
     font-size: 18px;
 }
 
@@ -276,7 +276,7 @@
 }
 
 #interaction h4 {
-    font-family: "Cambria";
+    font-family: "Helvetica"; /*Cambria*/
     font-size: 20px;
 }
 
@@ -307,7 +307,7 @@
 
 .interact-msg {
     font-size: 20px;
-    font-family: "Arial";
+    font-family: "Helvetica";
     color: #333;
     visibility: hidden;
     opacity: 0;
@@ -351,7 +351,7 @@
     
     margin-bottom: 0;
     font-size: 18px;
-    font-family: "Cambria";
+    font-family: "Helvetica"; /*Cambria*/
 }
 
 
@@ -361,19 +361,20 @@
     background-color: #D5D5D5;
     margin-top: 20px;
     width: 100%;
-    height: 50px;
+    height: 60px;
     text-align:center;
     vertical-align: middle;
-    font-family: "Cambria";
+    font-family: "Helvetica";
     color: #333;
-    padding-top: 10px;
+    font-size: 16px;
+    line-height: 60px;
 }
 
 a.black {
-    color: #1a0dab;
+    color: #4037ac;
     text-decoration: none;
 }
 
 #footnote a.black {
-    color: #333;
+    color: #444;
 }

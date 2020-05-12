@@ -6,15 +6,16 @@ function main(){
     $(".interact-sent").click(example_click);
     show_another();
     draw_medical_topic();
-    draw_PCIO();
+    draw_PICO();
 }
 
 var example_data = [
     [
         ["e", "Pain is usually felt over the inflamed site, but referred pain is possible."], ["ne", "The pain is usually felt in the chest wall right over the site of the inflammation or infection that caused the effusion."]],
     [
-        ["ne", "Symptoms of granuloma inguinale usually begin 1 to 12 weeks after infection. The first symptom is a painless, red nodule that slowly enlarges into a round, raised, foul-smelling lump."], 
-        ["e", "After an incubation period of about 1 to 12 weeks, a painless, red skin nodule slowly enlarges, becoming a raised, beefy red, moist, smooth, foul-smelling lesion."]],
+        ["e", "After an incubation period of about 1 to 12 weeks, a painless, red skin nodule slowly enlarges, becoming a raised, beefy red, moist, smooth, foul-smelling lesion."],
+        ["ne", "Symptoms of granuloma inguinale usually begin 1 to 12 weeks after infection. The first symptom is a painless, red nodule that slowly enlarges into a round, raised, foul-smelling lump."]
+    ],
     [
         ["e", "The lesion slowly enlarges, often ulcerates, and may spread to other skin areas. Lesions heal slowly, with scarring."],
         ["ne", "The sores slowly enlarge and spread to nearby tissue, causing further damage. Sores heal slowly and may result in permanent scar."]
@@ -180,7 +181,7 @@ function draw_medical_topic(){
 
 }
 
-function draw_PCIO(){
+function draw_PICO(){
     var dataset = [416, 107, 76, 53, 20, 3];
     var label = [
         'Symptoms',
@@ -200,7 +201,7 @@ function draw_PCIO(){
     var arc = d3.arc().innerRadius(innerRadius).outerRadius(outerRadius);
     var width = 500;
     var height = 350;
-    var svg = d3.select("#pcio_dis")
+    var svg = d3.select("#pico_dis")
                 .attr("width", width)
                 .attr("height", height);
     var arcs = svg.selectAll("g")
