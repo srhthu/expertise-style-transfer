@@ -70,10 +70,16 @@
     line-height: 1.45em;
 }
 
+.section li {
+    background-color: #F6F8FA;
+    padding: 1.5em 2em 1.5em 2em;
+}
+
 .section li p {
     font-family: "Helvetica"; /*Cambria*/
-    color: #333;
-    font-size: 18px;
+    color: #0E1019;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 1.5em;
 }
 
@@ -107,9 +113,9 @@
     list-style-type: none;
 }
 
-.section ol li {
-    text-indent: -20px;
-    padding-left: 20px;
+.section ol li p {
+    text-indent: -1.5em;
+    padding-left: 0em;
 }
 
 #citation {
