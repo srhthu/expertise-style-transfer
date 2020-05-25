@@ -38,7 +38,7 @@
     <div class="section" id="introduction">
         <h3>Introduction</h3>
         
-        <p><b>Expertise Style Transfer</b> (EST) is a new task of text style transfer between expert language and layman language, which is to tackle the problem of discrepancies between an expert's advice and a layman's understanding of it. This problem is usually caused by the prvasive cognitive bias exhibited across all domains. We contribute a manually annotated dataset, namely MSD, in the medical domain to promote research into this task.</p>
+        <p><b>Expertise Style Transfer</b> (EST) is a new task of text style transfer between expert language and layman language, which is to tackle the problem of discrepancies between an expert's advice and a layman's understanding of it. This problem is usually caused by the pervasive cognitive bias exhibited across all domains. We contribute a manually annotated dataset, namely MSD, in the medical domain to promote research into this task.</p>
 
         <p>Here we show random examples from the test set. Click the Result button to see the style!</p>
 
@@ -76,7 +76,7 @@
         <p>Our dataset is challenging from two aspects:</p>
         <ul>
         <li><p><B>Knowledge Gap</B>: Domain knowledge is the key factor that influences the expertise level of text, which is also a key difference from conventional styles. We identify two major types of knowledge gaps in MSD: <b>terminology</b>, e.g., <i>dyspnea</i>; and <b>empirical evidence</b>, that is, doctors prefer to use statistics (<i>About 1/1000</i>), while laymen do not (<i>quite small</i>)</p></li>
-        <li><p><B>Lexical & Structural Modification</B>: Most ST models only perform lexical modification, while leaving structures unchanged. Actually, syntactic structures play a significant role in language styles, especially regarding complexity or simplicity. The statistics part will show that the  sentences in MSD have more lexical and structural modification.</p></li>
+        <li><p><B>Lexical & Structural Modification</B>: Most ST models only perform lexical modification, while leaving structures unchanged. However, syntactic structures play a significant role in language styles, especially regarding complexity or simplicity. The statistics part will show that the  sentences in MSD have more lexical and structural modifications.</p></li>
         </ul>
         
 
@@ -89,11 +89,11 @@
         <ul>
             <li><p><b>Data Preprocessing</b> We collect <u>2601 professional</u> and <u>2487 consumer</u> documents with <u>1185 internal links</u> from the MSD website. Then, we find <u>2551</u> possible parallel groups of sentences by matching their document titles and subsection titles, which denote medical PICO elements, such as the Diagnosis and Symptoms. For example, all sentences for <i>Atherosclerosis.Symptoms</i> in the professional MSD are aligned with those for <i>Atherosclerosis.Signs</i> in the consumer MSD</p></li>
             
-            <li><p><b>Expert Annotation</b> Given the aligned groups of sentences in professional and consumer MSD, hired doctors select sentences from each version of group that have the same meaning but are written in different styles. The annotated sentence pairs can be used for evaluation.</p></li>
+            <li><p><b>Expert Annotation</b> Given the aligned groups of sentences in professional and consumer MSD, hired doctors are to select sentences from each version that have the same meaning but are written in different styles. The annotated sentence pairs can be used for evaluation.</p></li>
             
-            <li><p><b>Knowledge Incorporation</b> To facilitate knowledge-aware analysis, we use <a class="black" href="https://github.com/Georgetown-IR-Lab/QuickUMLS" target="_blank">QuickUMLS</a> to automaticlly link entity mentions, i.e., medical concepts, to <a class="black" href="https://www.nlm.nih.gov/research/umls/index.html" target="_blank">Unified Medical Language System</a> (UMLS). Each mention may refer to multiple concepts, e.g., <i>dyspnea</i> is linked to concept <i>C0013404</i></p></li>
+            <li><p><b>Knowledge Incorporation</b> To facilitate knowledge-aware analysis, we use <a class="black" href="https://github.com/Georgetown-IR-Lab/QuickUMLS" target="_blank">QuickUMLS</a> to automatically link entity mentions, i.e., medical concepts, to <a class="black" href="https://www.nlm.nih.gov/research/umls/index.html" target="_blank">Unified Medical Language System</a> (UMLS). Each mention may refer to multiple concepts, e.g., <i>dyspnea</i> is linked to concept <i>C0013404</i>.</p></li>
         </ul>
-        <p>Through this three step process, we obtain a large set of (non-parallel) training sentences in each style, and a small set of parallel sentences for evaluation.</p>
+        <p>After the three steps, we obtain a large set of (non-parallel) training sentences in each style, and a small set of parallel sentences for evaluation.</p>
     </div>
     
     <!--4. Statistics-->
@@ -103,7 +103,7 @@
         <tr>
         <td>
             <p>This part gives some statistics of the MSD dataset and compares it with other Style Transfer (ST) and Text Simplification (TS) datasets.</p>
-        <p>Figure 2 shows the distribution of medical topics of MSD Manuals, and Figure 3 displays the PICO elements' distribution in the test set. Table 1 presents the BLEU and edit distance (ED for short) scores of parallel sentences compared with existing TS and ST datasets. We see that:
+        <p>Figure 2 shows the distribution of medical topics of MSD Manuals, and Figure 3 displays the PICO elements' distribution in the test set. Table 1 compares the BLEU and edit distance (ED for short) scores of parallel sentences of existing TS and ST datasets. We see that:
             <ol>
                 <li><p>1. MSD has the lowest BLEU and highest ED. This implies that MSD is very challenging that requires both lexical and structural modifications.</p></li>
                 <li><p>2. TS datasets reflect more structural differences (with higher ED values) as compared to ST datasets, meaning that TS datasets are more complex to transfer.</p></li>
@@ -147,9 +147,10 @@
     </div>
 
     <div class="section" id="disclaimer">
-        <h3>Disclaimer</h3>
+        <h3 style="background-color: brown; color: white">Disclaimer</h3>
         <p>
-            According to the <i>Data Management Policy</i> of National University of Singapore which takes effect on 1 May 2020, the dataset cannot be published before getting the permit of NUS. We will release the dataset as soon as we finish the process. 
+            According to the <i>Data Management Policy</i> of National University of Singapore which takes effect on 1 May 2020, <b>the dataset cannot be published before getting the permit of NUS</b>. We will release the dataset to the public as soon as possible.
+            Before that, you can contact ruihaoshui@u.nus.edu to get the dataset. 
         </p>
     </div>
 
